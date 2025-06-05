@@ -15,12 +15,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+         
   <distributionManagement>
-    <repository>
-      <id>jfrog-artifactory</id>
-      <url>https://trialy6f3zb.jfrog.io/artifactory/api/maven/euacc-libs-release-local</url>
-    </repository>
-  </distributionManagement>
+      <repository>
+          <id>central</id>
+          <name>a0spxbwrhozev-artifactory-primary-0-releases</name>
+          <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-release-local</url>
+      </repository>
+      <snapshotRepository>
+          <id>snapshots</id>
+          <name>a0spxbwrhozev-artifactory-primary-0-snapshots</name>
+          <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-release-local</url>
+      </snapshotRepository>
+ </distributionManagement>
 
 </project>
