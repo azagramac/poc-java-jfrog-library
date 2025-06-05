@@ -17,16 +17,16 @@
   </properties>
          
   <distributionManagement>
-      <repository>
-          <id>central</id>
-          <name>a0spxbwrhozev-artifactory-primary-0-releases</name>
-          <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-release-local</url>
-      </repository>
-      <snapshotRepository>
-          <id>snapshots</id>
-          <name>a0spxbwrhozev-artifactory-primary-0-snapshots</name>
-          <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-release-local</url>
-      </snapshotRepository>
- </distributionManagement>
-
+    <repository>
+      <id>jfrog-release</id>
+      <name>Artifactory Release Repository</name>
+      <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>jfrog-snapshot</id>
+      <name>Artifactory Snapshot Repository</name>
+      <url>https://trialy6f3zb.jfrog.io/artifactory/euacc-libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+         
 </project>
