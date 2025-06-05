@@ -1,6 +1,6 @@
 <distributionManagement>
   <repository>
     <id>jfrog-artifactory</id>
-    <url>https://trialy6f3zb.jfrog.io/artifactory/poc-java-jfrog-library</url>
+    <url>https://trialy6f3zb.jfrog.io/artifactory/api/maven/euacc-libs-release-local</url>
   </repository>
 </distributionManagement>
