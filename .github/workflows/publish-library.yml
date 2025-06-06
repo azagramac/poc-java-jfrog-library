@@ -1,4 +1,4 @@
-name: Publish Maven Library
+name: Publish Maven Library to 🐸JFrog
 
 on:
   push:
@@ -9,16 +9,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: 📦 Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: ☕️ Set up JDK
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Set up Maven environment
+      - name: ☕️ Set up Maven environment and 🚀 Deploy to 🐸JFrog
         env:
           JFROG_USERNAME: ${{ secrets.JFROG_USERNAME }}
           JFROG_TOKEN: ${{ secrets.JFROG_TOKEN }}
