@@ -1,20 +1,7 @@
-package blog.azagra.dev.holamundo;
+package blog.azagra.dev.mensajes;
 
-import blog.azagra.dev.mensajes.Mensaje;
-import blog.azagra.dev.despedida.Despedida;
-
-public class HolaMundo {
-    public String saludar() {
-        return Mensaje.saludar();
-    }
-
-    public String despedirse() {
-        return Despedida.saludar();
-    }
-
-    public static void main(String[] args) {
-        HolaMundo hm = new HolaMundo();
-        System.out.println(hm.saludar());
-        System.out.println(hm.despedirse());
+public class Mensaje {
+    public static String saludar() {
+        return "¡Hola desde la librería!";
     }
 }
